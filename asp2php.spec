@@ -20,6 +20,7 @@ Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	http://home.swbell.net/mikekohn/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	8e9e309931126af395fb90cd4a91695f
 URL:		http://asp2php.naken.cc/
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
