@@ -93,13 +93,13 @@ Micro$oft IIS Web Server, Õ web-ÓÔÏÒ¦ÎËÉ ÎÁ PHP ÄÌÑ ÒÏÂÏÔÉ Ú Apache.
 
 %package gtk
 Summary:	GTK+ frontend for asp2php
-Summary(cs):	Grafické rozhraní pro asp2php konvertor v Gtk verzi
+Summary(cs):	Grafické rozhraní pro asp2php konvertor v GTK+ verzi
 Summary(da):	En GTK+ grafisk grænseflade for asp2php
 Summary(de):	Ein GUI GTK+ Frontend für  asp2php
 Summary(es):	Interfaz GTK+ para asp2php
-Summary(fr):	Frontal GTK pour le convertisseur asp2php
+Summary(fr):	Frontal GTK+ pour le convertisseur asp2php
 Summary(id):	GTK+ front-end untuk asp2php
-Summary(it):	Front-end GTK per asp2php
+Summary(it):	Front-end GTK+ per asp2php
 Summary(ja):	asp2php ¥³¥ó¥Ð¡¼¥¿¤Î GTK+ ¥Õ¥í¥ó¥È¥¨¥ó¥É
 Summary(nb):	Et grafisk grensesnitt for asp2php
 Summary(pl):	Nak³adka GTK+ na asp2php
@@ -115,7 +115,7 @@ Requires:	%{name} = %{version}
 GTK+ frontend to asp2php.
 
 %description gtk -l cs
-Balíèek obsahuje grafické rozhraní pro asp2php konvertor v Gtk verzi.
+Balíèek obsahuje grafické rozhraní pro asp2php konvertor v GTK+ verzi.
 
 %description gtk -l da
 Denne pakke indeholder en grafisk grænseflade i GTK+ for
