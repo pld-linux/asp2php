@@ -25,8 +25,6 @@ URL:		http://asp2php.naken.cc/
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define doc_dir	/usr/share/doc/%{name}-%{version}
-
 %description
 asp2php converts WWW Active Server Pages (ASP) files that run on the
 Microsoft IIS Web Server into PHP pages to run on Apache.
@@ -170,7 +168,7 @@ filformatkonverteraren asp2php.
 
 %prep
 %setup -q -n %{name}
-perl -pi -e "s/gcc/gcc %{rpmcflags}/g" Makefile
+perl -pi -e "s/gcc/%{__cc} %{rpmcflags}/g" Makefile
 
 %build
 %{__make}
@@ -178,21 +176,16 @@ perl -pi -e "s/gcc/gcc %{rpmcflags}/g" Makefile
 
 %install
 rm -rf $RPM_BUILD_ROOT
-[ -n "%{buildroot}" -a "%{buildroot}" != / ] && rm -rf %{buildroot}
+install -d $RPM_BUILD_ROOT%{_bindir}
 
-install -d %{buildroot}%{_bindir}
-cp -f asp2php gtkasp2php %{buildroot}%{_bindir}
-
-# Install documentation by hand
-install -d %{buildroot}%{doc_dir}
-cp -p README LICENSE %{buildroot}%{doc_dir}
+install asp2php gtkasp2php $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc %{doc_dir}
+%doc README LICENSE
 %attr(755,root,root) %{_bindir}/asp2php
 
 %files gtk
