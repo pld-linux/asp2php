@@ -169,7 +169,7 @@ filformatkonverteraren asp2php.
 
 %prep
 %setup -q -n %{name}
-perl -pi -e "s/gcc/gcc %{optflags}/g" Makefile
+perl -pi -e "s/gcc/gcc %{rpmcflags}/g" Makefile
 
 %build
 %{__make}
