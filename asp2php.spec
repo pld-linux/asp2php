@@ -14,7 +14,6 @@ Summary(ru):	Преобразователь программ ASP в PHP
 Summary(sl):	Pretvornik iz ASP v PHP
 Summary(sv):	En konverterare frЕn ASP till PHP
 Summary(uk):	Конверту╓ стор╕нки WWW Active Server (Windoze IIS) у стор╕нки на PHP
-%define doc_dir /usr/share/doc/%{name}-%{version}
 Name:		asp2php
 Version:	0.75.25
 Release:	1
@@ -24,6 +23,8 @@ Source0:	http://home.swbell.net/mikekohn/%{name}/%{name}-%{version}.tar.gz
 URL:		http://asp2php.naken.cc/
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define doc_dir	/usr/share/doc/%{name}-%{version}
 
 %description
 asp2php converts WWW Active Server Pages (ASP) files that run on the
