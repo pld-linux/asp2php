@@ -15,12 +15,12 @@ Summary(sl):	Pretvornik iz ASP v PHP
 Summary(sv):	En konverterare frЕn ASP till PHP
 Summary(uk):	Конверту╓ стор╕нки WWW Active Server (Windoze IIS) у стор╕нки на PHP
 Name:		asp2php
-Version:	0.76.17
+Version:	0.76.18
 Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	http://www.mikekohn.com/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	c9ab4cf79d08605c1e0856ac81f414ef
+# Source0-md5:	dd3c21e7d305b978ca49bee73e0e44f3
 URL:		http://asp2php.naken.cc/
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
