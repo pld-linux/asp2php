@@ -20,21 +20,6 @@ Version:	0.75.25
 Release:	1
 License:	GPL
 Group:		Development/Tools
-Group(cs):	Vıvojové prostøedky/Nástroje
-Group(da):	Udvikling/Værktøj
-Group(de):	Entwicklung/Tools
-Group(es):	Desarrollo/Herramientas
-Group(fr):	Development/Outils
-Group(is):	Şróunartól/Tól
-Group(it):	Sviluppo/Tool
-Group(ja):	³«È¯/¥Ä¡¼¥ë
-Group(no):	Utvikling/Verktøy
-Group(pl):	Programowanie/Narzêdzia
-Group(pt):	Desenvolvimento/Ferramentas
-Group(ru):	òÁÚÒÁÂÏÔËÁ/éÎÓÔÒÕÍÅÎÔÙ
-Group(sl):	Razvoj/Orodja
-Group(sv):	Utveckling/Verktyg
-Group(uk):	òÏÚÒÏÂËÁ/¶ÎÓÔÒÕÍÅÎÔÉ
 Source0:	http://home.swbell.net/mikekohn/%{name}/%{name}-%{version}.tar.gz
 URL:		http://asp2php.naken.cc/
 BuildRequires:	gtk+-devel
@@ -124,21 +109,6 @@ Summary(sl):	Vmesnik GTK+ za asp2php
 Summary(sv):	En GTK+-framända till asp2php
 Summary(uk):	ïÂÏÌÏÎËÁ ÎÁ gtk+ ÄÌÑ asp2php
 Group:		Development/Tools
-Group(cs):	Vıvojové prostøedky/Nástroje
-Group(da):	Udvikling/Værktøj
-Group(de):	Entwicklung/Tools
-Group(es):	Desarrollo/Herramientas
-Group(fr):	Development/Outils
-Group(is):	Şróunartól/Tól
-Group(it):	Sviluppo/Tool
-Group(ja):	³«È¯/¥Ä¡¼¥ë
-Group(no):	Utvikling/Verktøy
-Group(pl):	Programowanie/Narzêdzia
-Group(pt):	Desenvolvimento/Ferramentas
-Group(ru):	òÁÚÒÁÂÏÔËÁ/éÎÓÔÒÕÍÅÎÔÙ
-Group(sl):	Razvoj/Orodja
-Group(sv):	Utveckling/Verktyg
-Group(uk):	òÏÚÒÏÂËÁ/¶ÎÓÔÒÕÍÅÎÔÉ
 Requires:	%{name} = %{version}
 
 %description gtk
