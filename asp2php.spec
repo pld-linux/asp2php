@@ -7,7 +7,7 @@ Summary(fr):	Convertisseur ASP-PHP
 Summary(id):	Konverter ASP ke PHP
 Summary(it):	Convertitore di ASP in PHP
 Summary(ja):	ASP ¤«¤é PHP ¤Ø¤Î¥³¥ó¥Ð¡¼¥¿
-Summary(no):	Konverterer ASP til PHP
+Summary(nb):	Konverterer ASP til PHP
 Summary(pl):	Konwerter ASP do PHP
 Summary(pt):	Um conversor de ASP para PHP
 Summary(ru):	ðÒÅÏÂÒÁÚÏ×ÁÔÅÌØ ÐÒÏÇÒÁÍÍ ASP × PHP
@@ -64,7 +64,7 @@ asp2php ¥æ¡¼¥Æ¥£¥ê¥Æ¥£¤Ï¡¢Microsoft IIS Web Server ¾å¤ÇÆ°ºî¤¹¤ë ASP
 (Active Server Pages) ¥Õ¥¡¥¤¥ë¤ò¡¢Apache ¾å¤ÇÆ°ºî¤¹¤ë PHP ¥Ú¡¼¥¸¤Ë
 ÊÑ´¹¤·¤Þ¤¹¡£
 
-%description -l no
+%description -l nb
 Et verktøy for å konvertere \"Active Server Pages\" (ASP) som kjører
 på Microsoft IIS webtjener til PHP, som kjører på webtjeneren Apache.
 
@@ -101,7 +101,7 @@ Summary(fr):	Frontal GTK pour le convertisseur asp2php
 Summary(id):	GTK+ front-end untuk asp2php
 Summary(it):	Front-end GTK per asp2php
 Summary(ja):	asp2php ¥³¥ó¥Ð¡¼¥¿¤Î GTK+ ¥Õ¥í¥ó¥È¥¨¥ó¥É
-Summary(no):	Et grafisk grensesnitt for asp2php
+Summary(nb):	Et grafisk grensesnitt for asp2php
 Summary(pl):	Nak³adka GTK+ na asp2php
 Summary(pt):	Uma interface de GTK+ para o asp2php
 Summary(ru):	éÎÔÅÒÆÅÊÓ ÄÌÑ asp2php ÐÏÄ gtk+
@@ -141,7 +141,7 @@ di formato asp2php.
 ¤³¤Î¥Ñ¥Ã¥±¡¼¥¸¤Ë¤Ï asp2php ¥Õ¥¡¥¤¥ë¥Õ¥©¡¼¥Þ¥Ã¥È¥³¥ó¥Ð¡¼¥¿ÍÑ¤Î GTK+ GUI
 ¥¤¥ó¥¿¡¼¥Õ¥§¥¤¥¹¤¬´Þ¤Þ¤ì¤Æ¤¤¤Þ¤¹¡£
 
-%description gtk -l no
+%description gtk -l nb
 Denne pakken inneholder et grafisk grensesnitt for
 asp2php-konverteringsprogrammet.
 
