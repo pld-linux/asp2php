@@ -15,12 +15,12 @@ Summary(sl):	Pretvornik iz ASP v PHP
 Summary(sv):	En konverterare frЕn ASP till PHP
 Summary(uk):	Конверту╓ стор╕нки WWW Active Server (Windoze IIS) у стор╕нки на PHP
 Name:		asp2php
-Version:	0.75.25
+Version:	0.76.17
 Release:	1
 License:	GPL
 Group:		Development/Tools
-Source0:	http://home.swbell.net/mikekohn/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	8e9e309931126af395fb90cd4a91695f
+Source0:	http://www.mikekohn.com/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	c9ab4cf79d08605c1e0856ac81f414ef
 URL:		http://asp2php.naken.cc/
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -167,12 +167,12 @@ filformatkonverteraren asp2php.
 Оболонка на gtk+ для asp2php.
 
 %prep
-%setup -q -n %{name}
-perl -pi -e "s/gcc/%{__cc} %{rpmcflags}/g" Makefile
+%setup -q
+perl -pi -e "s/gcc/%{__cc} %{rpmcflags}/g" Makefile */Makefile */*/Makefile
 
 %build
 %{__make}
-%{__make} gtkasp2php
+%{__make} gui
 
 %install
 rm -rf $RPM_BUILD_ROOT
