@@ -6,6 +6,7 @@ Summary(uk):	Конверту╓ стор╕нки WWW Active Server (Windoze IIS) у стор╕нки на PH
 Name:		asp2php
 Version:	0.75.25
 Release:	1
+License:	GPL
 Group:		Development/Tools
 Group(cs):	VЩvojovИ prostЬedky/NАstroje
 Group(da):	Udvikling/VФrktЬj
@@ -22,9 +23,8 @@ Group(ru):	Разработка/Инструменты
 Group(sl):	Razvoj/Orodja
 Group(sv):	Utveckling/Verktyg
 Group(uk):	Розробка/╤нструменти
-License:	GPL
-URL:		http://asp2php.naken.cc/
 Source0:	http://home.swbell.net/mikekohn/%{name}/%{name}-%{version}.tar.gz
+URL:		http://asp2php.naken.cc/
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -32,7 +32,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 asp2php converts WWW Active Server Pages (ASP) files that run on the
 Microsoft IIS Web Server into PHP pages to run on Apache.
 
-%description
+%description -l pl
 asp2php konwertuje pliki stron WWW Active Server (ASP) dziaЁaj╠cego w
 ramach Microsoft IIS Web Server na strony PHP dziaЁaj╠ce na Apache.
 
@@ -100,7 +100,7 @@ install -d %{buildroot}%{doc_dir}
 cp -p README LICENSE %{buildroot}%{doc_dir}
 
 %clean
-[ -n "%{buildroot}" -a "%{buildroot}" != / ] && rm -rf %{buildroot}
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
