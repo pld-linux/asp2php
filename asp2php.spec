@@ -23,6 +23,7 @@ Source0:	http://www.mikekohn.com/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	dd3c21e7d305b978ca49bee73e0e44f3
 URL:		http://asp2php.naken.cc/
 BuildRequires:	gtk+-devel
+BuildRequires:	perl-base
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -168,7 +169,7 @@ filformatkonverteraren asp2php.
 
 %prep
 %setup -q
-perl -pi -e "s/gcc/%{__cc} %{rpmcflags}/g" Makefile */Makefile */*/Makefile
+%{__perl} -pi -e "s/gcc/%{__cc} %{rpmcflags}/g" Makefile */Makefile */*/Makefile
 
 %build
 %{__make}
