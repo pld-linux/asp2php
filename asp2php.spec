@@ -104,15 +104,15 @@ Summary(ja):	asp2php ¥³¥ó¥Ğ¡¼¥¿¤Î GTK+ ¥Õ¥í¥ó¥È¥¨¥ó¥É
 Summary(nb):	Et grafisk grensesnitt for asp2php
 Summary(pl):	Nak³adka GTK+ na asp2php
 Summary(pt):	Uma interface de GTK+ para o asp2php
-Summary(ru):	éÎÔÅÒÆÅÊÓ ÄÌÑ asp2php ĞÏÄ gtk+
+Summary(ru):	éÎÔÅÒÆÅÊÓ ÄÌÑ asp2php ĞÏÄ GTK+
 Summary(sl):	Vmesnik GTK+ za asp2php
 Summary(sv):	En GTK+-framända till asp2php
-Summary(uk):	ïÂÏÌÏÎËÁ ÎÁ gtk+ ÄÌÑ asp2php
+Summary(uk):	ïÂÏÌÏÎËÁ ÎÁ GTK+ ÄÌÑ asp2php
 Group:		Development/Tools
 Requires:	%{name} = %{version}
 
 %description gtk
-gtk+ frontend to asp2php.
+GTK+ frontend to asp2php.
 
 %description gtk -l cs
 Balíèek obsahuje grafické rozhraní pro asp2php konvertor v Gtk verzi.
@@ -146,7 +146,7 @@ Denne pakken inneholder et grafisk grensesnitt for
 asp2php-konverteringsprogrammet.
 
 %description gtk -l pl
-Nak³adka gtk+ na asp2php.
+Nak³adka GTK+ na asp2php.
 
 %description gtk -l pt
 Este pacote contém uma interface gráfica de GTK+ para o conversor de
@@ -164,7 +164,7 @@ Detta paket innehåller ett grafiskt GTK+-gränssnitt till
 filformatkonverteraren asp2php.
 
 %description gtk -l uk
-ïÂÏÌÏÎËÁ ÎÁ gtk+ ÄÌÑ asp2php.
+ïÂÏÌÏÎËÁ ÎÁ GTK+ ÄÌÑ asp2php.
 
 %prep
 %setup -q
