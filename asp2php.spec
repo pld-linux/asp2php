@@ -19,7 +19,7 @@ Version:	0.76.18
 Release:	1
 License:	GPL
 Group:		Development/Tools
-Source0:	http://www.mikekohn.com/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://www.mikekohn.com/asp2php/%{name}-%{version}.tar.gz
 # Source0-md5:	dd3c21e7d305b978ca49bee73e0e44f3
 URL:		http://asp2php.naken.cc/
 BuildRequires:	gtk+-devel
@@ -110,7 +110,7 @@ Summary(sl):	Vmesnik GTK+ za asp2php
 Summary(sv):	En GTK+-framДnda till asp2php
 Summary(uk):	Оболонка на GTK+ для asp2php
 Group:		Development/Tools
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description gtk
 GTK+ frontend to asp2php.
