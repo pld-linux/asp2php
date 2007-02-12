@@ -1,19 +1,19 @@
 Summary:	An ASP to PHP converter
-Summary(cs):	Konvertor z ASP do PHP
-Summary(da):	ASP til PHP konvertering
-Summary(de):	Ein Konverter für die Umwandlung von ASP in PHP
-Summary(es):	Convertidor de ASP en PHP
-Summary(fr):	Convertisseur ASP-PHP
-Summary(id):	Konverter ASP ke PHP
-Summary(it):	Convertitore di ASP in PHP
-Summary(ja):	ASP ¤«¤é PHP ¤Ø¤Î¥³¥ó¥Ğ¡¼¥¿
-Summary(nb):	Konverterer ASP til PHP
-Summary(pl):	Konwerter ASP do PHP
-Summary(pt):	Um conversor de ASP para PHP
-Summary(ru):	ğÒÅÏÂÒÁÚÏ×ÁÔÅÌØ ĞÒÏÇÒÁÍÍ ASP × PHP
-Summary(sl):	Pretvornik iz ASP v PHP
-Summary(sv):	En konverterare från ASP till PHP
-Summary(uk):	ëÏÎ×ÅÒÔÕ¤ ÓÔÏÒ¦ÎËÉ WWW Active Server (Windoze IIS) Õ ÓÔÏÒ¦ÎËÉ ÎÁ PHP
+Summary(cs.UTF-8):   Konvertor z ASP do PHP
+Summary(da.UTF-8):   ASP til PHP konvertering
+Summary(de.UTF-8):   Ein Konverter fÃ¼r die Umwandlung von ASP in PHP
+Summary(es.UTF-8):   Convertidor de ASP en PHP
+Summary(fr.UTF-8):   Convertisseur ASP-PHP
+Summary(id.UTF-8):   Konverter ASP ke PHP
+Summary(it.UTF-8):   Convertitore di ASP in PHP
+Summary(ja.UTF-8):   ASP ã‹ã‚‰ PHP ã¸ã®ã‚³ãƒ³ãƒãƒ¼ã‚¿
+Summary(nb.UTF-8):   Konverterer ASP til PHP
+Summary(pl.UTF-8):   Konwerter ASP do PHP
+Summary(pt.UTF-8):   Um conversor de ASP para PHP
+Summary(ru.UTF-8):   ĞŸÑ€ĞµĞ¾Ğ±Ñ€Ğ°Ğ·Ğ¾Ğ²Ğ°Ñ‚ĞµĞ»ÑŒ Ğ¿Ñ€Ğ¾Ğ³Ñ€Ğ°Ğ¼Ğ¼ ASP Ğ² PHP
+Summary(sl.UTF-8):   Pretvornik iz ASP v PHP
+Summary(sv.UTF-8):   En konverterare frÃ¥n ASP till PHP
+Summary(uk.UTF-8):   ĞšĞ¾Ğ½Ğ²ĞµÑ€Ñ‚ÑƒÑ” ÑÑ‚Ğ¾Ñ€Ñ–Ğ½ĞºĞ¸ WWW Active Server (Windoze IIS) Ñƒ ÑÑ‚Ğ¾Ñ€Ñ–Ğ½ĞºĞ¸ Ğ½Ğ° PHP
 Name:		asp2php
 Version:	0.76.18
 Release:	1
@@ -30,142 +30,142 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 asp2php converts WWW Active Server Pages (ASP) files that run on the
 Microsoft IIS Web Server into PHP pages to run on Apache.
 
-%description -l cs
-Balíèek obsahuje nástroj, kterı konvertuje ASP (Active Server Pages)
-soubory (které je mo¾né spustit na Microsoft IIS Web serveru) do PHP
-stránek, které je mo¾né spustit na Apache Web serveru.
+%description -l cs.UTF-8
+BalÃ­Äek obsahuje nÃ¡stroj, kterÃ½ konvertuje ASP (Active Server Pages)
+soubory (kterÃ© je moÅ¾nÃ© spustit na Microsoft IIS Web serveru) do PHP
+strÃ¡nek, kterÃ© je moÅ¾nÃ© spustit na Apache Web serveru.
 
-%description -l da
-asp2php-værktøjet konverterer \"Active Server Pages\" (ASP) filer, som
-kører på Microsoft IIS webtjener, til PHP, som kører på webtjeneren
+%description -l da.UTF-8
+asp2php-vÃ¦rktÃ¸jet konverterer \"Active Server Pages\" (ASP) filer, som
+kÃ¸rer pÃ¥ Microsoft IIS webtjener, til PHP, som kÃ¸rer pÃ¥ webtjeneren
 Apache.
 
-%description -l de
+%description -l de.UTF-8
 Das asp2php Dienstprogramm wandelt Active Server Pages (ASP) Dateien,
 die auf dem Microsoft IIS Web Server ausgelegt sind, in PHP Seiten um,
 die mit Apache laufen.
 
-%description -l es
+%description -l es.UTF-8
 La utilidad asp2php convierte los ficheros Active Server Pages (ASP),
-que se ejecutan en el servidor web Microsoft IIS, en páginas PHP, que
+que se ejecutan en el servidor web Microsoft IIS, en pÃ¡ginas PHP, que
 se ejecutan en el servidor web Apache.
 
-%description -l fr
+%description -l fr.UTF-8
 L'utilitaire asp2php convertit les fichiers ASP (Active Server Pages)
 fonctionnant sur le serveur Web Microsoft IIS en pages PHP
 fonctionnant sur le serveur Web Apache.
 
-%description -l it
+%description -l it.UTF-8
 L'utility asp2php converte i file ASP (Active Server Pages), che sono
 in esecuzione sul web server Microsoft IIS, in pagine PHP, eseguite
 sul web server Apache.
 
-%description -l ja
-asp2php ¥æ¡¼¥Æ¥£¥ê¥Æ¥£¤Ï¡¢Microsoft IIS Web Server ¾å¤ÇÆ°ºî¤¹¤ë ASP
-(Active Server Pages) ¥Õ¥¡¥¤¥ë¤ò¡¢Apache ¾å¤ÇÆ°ºî¤¹¤ë PHP ¥Ú¡¼¥¸¤Ë
-ÊÑ´¹¤·¤Ş¤¹¡£
+%description -l ja.UTF-8
+asp2php ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£ã¯ã€Microsoft IIS Web Server ä¸Šã§å‹•ä½œã™ã‚‹ ASP
+(Active Server Pages) ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã€Apache ä¸Šã§å‹•ä½œã™ã‚‹ PHP ãƒšãƒ¼ã‚¸ã«
+å¤‰æ›ã—ã¾ã™ã€‚
 
-%description -l nb
-Et verktøy for å konvertere \"Active Server Pages\" (ASP) som kjører
-på Microsoft IIS webtjener til PHP, som kjører på webtjeneren Apache.
+%description -l nb.UTF-8
+Et verktÃ¸y for Ã¥ konvertere \"Active Server Pages\" (ASP) som kjÃ¸rer
+pÃ¥ Microsoft IIS webtjener til PHP, som kjÃ¸rer pÃ¥ webtjeneren Apache.
 
-%description -l pl
-asp2php konwertuje pliki stron WWW Active Server (ASP) dzia³aj±cego w
-ramach Microsoft IIS Web Server na strony PHP dzia³aj±ce na Apache.
+%description -l pl.UTF-8
+asp2php konwertuje pliki stron WWW Active Server (ASP) dziaÅ‚ajÄ…cego w
+ramach Microsoft IIS Web Server na strony PHP dziaÅ‚ajÄ…ce na Apache.
 
-%description -l pt
-O utilitário asp2php converte os ficheiros de WWW Active Server Pages
-(ASP), que correm no servidor Web IIS da Microsoft, em páginas de PHP
+%description -l pt.UTF-8
+O utilitÃ¡rio asp2php converte os ficheiros de WWW Active Server Pages
+(ASP), que correm no servidor Web IIS da Microsoft, em pÃ¡ginas de PHP
 que correm no servidor Web Apache.
 
-%description -l ru
-asp2php ËÏÎ×ÅÒÔÉÒÕÅÔ ÆÁÊÌÙ WWW Active Server Pages (ASP), ÉÓĞÏÌÎÑÅÍÙÅ
-ÎÁ Micro$oft IIS Web Server, × web-ÓÔÒÁÎÉÃÙ ÎÁ PHP ÄÌÑ ÒÁÂÏÔÙ Ó
+%description -l ru.UTF-8
+asp2php ĞºĞ¾Ğ½Ğ²ĞµÑ€Ñ‚Ğ¸Ñ€ÑƒĞµÑ‚ Ñ„Ğ°Ğ¹Ğ»Ñ‹ WWW Active Server Pages (ASP), Ğ¸ÑĞ¿Ğ¾Ğ»Ğ½ÑĞµĞ¼Ñ‹Ğµ
+Ğ½Ğ° Micro$oft IIS Web Server, Ğ² web-ÑÑ‚Ñ€Ğ°Ğ½Ğ¸Ñ†Ñ‹ Ğ½Ğ° PHP Ğ´Ğ»Ñ Ñ€Ğ°Ğ±Ğ¾Ñ‚Ñ‹ Ñ
 Apache.
 
-%description -l sv
+%description -l sv.UTF-8
 Verktyget asp2php konverterar filer med Active Server Pages (ASP), som
-används i Microsofts webbserver IIS, till PHP-sidor, som körs i
+anvÃ¤nds i Microsofts webbserver IIS, till PHP-sidor, som kÃ¶rs i
 webbservern Apache.
 
-%description -l uk
-asp2php ËÏÎ×ÅÒÔÕ¤ ÆÁÊÌÉ WWW Active Server Pages (ASP), ×ÉËÏÎÕ×ÁÎ¦ ÎÁ
-Micro$oft IIS Web Server, Õ web-ÓÔÏÒ¦ÎËÉ ÎÁ PHP ÄÌÑ ÒÏÂÏÔÉ Ú Apache.
+%description -l uk.UTF-8
+asp2php ĞºĞ¾Ğ½Ğ²ĞµÑ€Ñ‚ÑƒÑ” Ñ„Ğ°Ğ¹Ğ»Ğ¸ WWW Active Server Pages (ASP), Ğ²Ğ¸ĞºĞ¾Ğ½ÑƒĞ²Ğ°Ğ½Ñ– Ğ½Ğ°
+Micro$oft IIS Web Server, Ñƒ web-ÑÑ‚Ğ¾Ñ€Ñ–Ğ½ĞºĞ¸ Ğ½Ğ° PHP Ğ´Ğ»Ñ Ñ€Ğ¾Ğ±Ğ¾Ñ‚Ğ¸ Ğ· Apache.
 
 %package gtk
 Summary:	GTK+ frontend for asp2php
-Summary(cs):	Grafické rozhraní pro asp2php konvertor v GTK+ verzi
-Summary(da):	En GTK+ grafisk grænseflade for asp2php
-Summary(de):	Ein GUI GTK+ Frontend für  asp2php
-Summary(es):	Interfaz GTK+ para asp2php
-Summary(fr):	Frontal GTK+ pour le convertisseur asp2php
-Summary(id):	GTK+ front-end untuk asp2php
-Summary(it):	Front-end GTK+ per asp2php
-Summary(ja):	asp2php ¥³¥ó¥Ğ¡¼¥¿¤Î GTK+ ¥Õ¥í¥ó¥È¥¨¥ó¥É
-Summary(nb):	Et grafisk grensesnitt for asp2php
-Summary(pl):	Nak³adka GTK+ na asp2php
-Summary(pt):	Uma interface de GTK+ para o asp2php
-Summary(ru):	éÎÔÅÒÆÅÊÓ ÄÌÑ asp2php ĞÏÄ GTK+
-Summary(sl):	Vmesnik GTK+ za asp2php
-Summary(sv):	En GTK+-framända till asp2php
-Summary(uk):	ïÂÏÌÏÎËÁ ÎÁ GTK+ ÄÌÑ asp2php
+Summary(cs.UTF-8):   GrafickÃ© rozhranÃ­ pro asp2php konvertor v GTK+ verzi
+Summary(da.UTF-8):   En GTK+ grafisk grÃ¦nseflade for asp2php
+Summary(de.UTF-8):   Ein GUI GTK+ Frontend fÃ¼r  asp2php
+Summary(es.UTF-8):   Interfaz GTK+ para asp2php
+Summary(fr.UTF-8):   Frontal GTK+ pour le convertisseur asp2php
+Summary(id.UTF-8):   GTK+ front-end untuk asp2php
+Summary(it.UTF-8):   Front-end GTK+ per asp2php
+Summary(ja.UTF-8):   asp2php ã‚³ãƒ³ãƒãƒ¼ã‚¿ã® GTK+ ãƒ•ãƒ­ãƒ³ãƒˆã‚¨ãƒ³ãƒ‰
+Summary(nb.UTF-8):   Et grafisk grensesnitt for asp2php
+Summary(pl.UTF-8):   NakÅ‚adka GTK+ na asp2php
+Summary(pt.UTF-8):   Uma interface de GTK+ para o asp2php
+Summary(ru.UTF-8):   Ğ˜Ğ½Ñ‚ĞµÑ€Ñ„ĞµĞ¹Ñ Ğ´Ğ»Ñ asp2php Ğ¿Ğ¾Ğ´ GTK+
+Summary(sl.UTF-8):   Vmesnik GTK+ za asp2php
+Summary(sv.UTF-8):   En GTK+-framÃ¤nda till asp2php
+Summary(uk.UTF-8):   ĞĞ±Ğ¾Ğ»Ğ¾Ğ½ĞºĞ° Ğ½Ğ° GTK+ Ğ´Ğ»Ñ asp2php
 Group:		Development/Tools
 Requires:	%{name} = %{version}-%{release}
 
 %description gtk
 GTK+ frontend to asp2php.
 
-%description gtk -l cs
-Balíèek obsahuje grafické rozhraní pro asp2php konvertor v GTK+ verzi.
+%description gtk -l cs.UTF-8
+BalÃ­Äek obsahuje grafickÃ© rozhranÃ­ pro asp2php konvertor v GTK+ verzi.
 
-%description gtk -l da
-Denne pakke indeholder en grafisk grænseflade i GTK+ for
+%description gtk -l da.UTF-8
+Denne pakke indeholder en grafisk grÃ¦nseflade i GTK+ for
 asp2php-konverteringsprogrammet.
 
-%description gtk -l de
-Dieses Paket enthält ein GUI GTK+ Interface für den asp2php
+%description gtk -l de.UTF-8
+Dieses Paket enthÃ¤lt ein GUI GTK+ Interface fÃ¼r den asp2php
 Dateiformat-Konverter.
 
-%description gtk -l es
+%description gtk -l es.UTF-8
 Este paquete contiene una interfaz GUI GTK+ para el convertidor de
 formato de fichero asp2php.
 
-%description gtk -l fr
+%description gtk -l fr.UTF-8
 Ce paquetage contient une IUG GTK+ pour le convertisseur de fichiers
 asp2php.
 
-%description gtk -l it
+%description gtk -l it.UTF-8
 Questo pacchetto contiene un'interfaccia GUI GTK+ per il convertitore
 di formato asp2php.
 
-%description gtk -l ja
-¤³¤Î¥Ñ¥Ã¥±¡¼¥¸¤Ë¤Ï asp2php ¥Õ¥¡¥¤¥ë¥Õ¥©¡¼¥Ş¥Ã¥È¥³¥ó¥Ğ¡¼¥¿ÍÑ¤Î GTK+ GUI
-¥¤¥ó¥¿¡¼¥Õ¥§¥¤¥¹¤¬´Ş¤Ş¤ì¤Æ¤¤¤Ş¤¹¡£
+%description gtk -l ja.UTF-8
+ã“ã®ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã«ã¯ asp2php ãƒ•ã‚¡ã‚¤ãƒ«ãƒ•ã‚©ãƒ¼ãƒãƒƒãƒˆã‚³ãƒ³ãƒãƒ¼ã‚¿ç”¨ã® GTK+ GUI
+ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ã‚¤ã‚¹ãŒå«ã¾ã‚Œã¦ã„ã¾ã™ã€‚
 
-%description gtk -l nb
+%description gtk -l nb.UTF-8
 Denne pakken inneholder et grafisk grensesnitt for
 asp2php-konverteringsprogrammet.
 
-%description gtk -l pl
-Nak³adka GTK+ na asp2php.
+%description gtk -l pl.UTF-8
+NakÅ‚adka GTK+ na asp2php.
 
-%description gtk -l pt
-Este pacote contém uma interface gráfica de GTK+ para o conversor de
+%description gtk -l pt.UTF-8
+Este pacote contÃ©m uma interface grÃ¡fica de GTK+ para o conversor de
 formato de ficheiros asp2php.
 
-%description gtk -l ru
-üÔÏÔ ĞÁËÅÔ ÓÏÄÅÒÖÉÔ ÉÎÔÅÒÆÅÊÓ ÎÁ GTK+, ÄÌÑ ĞÒÅÏÂÒÁÚÏ×ÁÔÅÌÑ asp2php
+%description gtk -l ru.UTF-8
+Ğ­Ñ‚Ğ¾Ñ‚ Ğ¿Ğ°ĞºĞµÑ‚ ÑĞ¾Ğ´ĞµÑ€Ğ¶Ğ¸Ñ‚ Ğ¸Ğ½Ñ‚ĞµÑ€Ñ„ĞµĞ¹Ñ Ğ½Ğ° GTK+, Ğ´Ğ»Ñ Ğ¿Ñ€ĞµĞ¾Ğ±Ñ€Ğ°Ğ·Ğ¾Ğ²Ğ°Ñ‚ĞµĞ»Ñ asp2php
 
-%description gtk -l sl
-Ta paket vsebuje grafièni vmesnik za GTK+ za pretvornik datoteènih
+%description gtk -l sl.UTF-8
+Ta paket vsebuje grafiÄni vmesnik za GTK+ za pretvornik datoteÄnih
 formatov asp2php.
 
-%description gtk -l sv
-Detta paket innehåller ett grafiskt GTK+-gränssnitt till
+%description gtk -l sv.UTF-8
+Detta paket innehÃ¥ller ett grafiskt GTK+-grÃ¤nssnitt till
 filformatkonverteraren asp2php.
 
-%description gtk -l uk
-ïÂÏÌÏÎËÁ ÎÁ GTK+ ÄÌÑ asp2php.
+%description gtk -l uk.UTF-8
+ĞĞ±Ğ¾Ğ»Ğ¾Ğ½ĞºĞ° Ğ½Ğ° GTK+ Ğ´Ğ»Ñ asp2php.
 
 %prep
 %setup -q
