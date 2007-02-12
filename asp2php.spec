@@ -1,19 +1,19 @@
 Summary:	An ASP to PHP converter
-Summary(cs.UTF-8):   Konvertor z ASP do PHP
-Summary(da.UTF-8):   ASP til PHP konvertering
-Summary(de.UTF-8):   Ein Konverter für die Umwandlung von ASP in PHP
-Summary(es.UTF-8):   Convertidor de ASP en PHP
-Summary(fr.UTF-8):   Convertisseur ASP-PHP
-Summary(id.UTF-8):   Konverter ASP ke PHP
-Summary(it.UTF-8):   Convertitore di ASP in PHP
-Summary(ja.UTF-8):   ASP から PHP へのコンバータ
-Summary(nb.UTF-8):   Konverterer ASP til PHP
-Summary(pl.UTF-8):   Konwerter ASP do PHP
-Summary(pt.UTF-8):   Um conversor de ASP para PHP
-Summary(ru.UTF-8):   Преобразователь программ ASP в PHP
-Summary(sl.UTF-8):   Pretvornik iz ASP v PHP
-Summary(sv.UTF-8):   En konverterare från ASP till PHP
-Summary(uk.UTF-8):   Конвертує сторінки WWW Active Server (Windoze IIS) у сторінки на PHP
+Summary(cs.UTF-8):	Konvertor z ASP do PHP
+Summary(da.UTF-8):	ASP til PHP konvertering
+Summary(de.UTF-8):	Ein Konverter für die Umwandlung von ASP in PHP
+Summary(es.UTF-8):	Convertidor de ASP en PHP
+Summary(fr.UTF-8):	Convertisseur ASP-PHP
+Summary(id.UTF-8):	Konverter ASP ke PHP
+Summary(it.UTF-8):	Convertitore di ASP in PHP
+Summary(ja.UTF-8):	ASP から PHP へのコンバータ
+Summary(nb.UTF-8):	Konverterer ASP til PHP
+Summary(pl.UTF-8):	Konwerter ASP do PHP
+Summary(pt.UTF-8):	Um conversor de ASP para PHP
+Summary(ru.UTF-8):	Преобразователь программ ASP в PHP
+Summary(sl.UTF-8):	Pretvornik iz ASP v PHP
+Summary(sv.UTF-8):	En konverterare från ASP till PHP
+Summary(uk.UTF-8):	Конвертує сторінки WWW Active Server (Windoze IIS) у сторінки на PHP
 Name:		asp2php
 Version:	0.76.18
 Release:	1
@@ -94,21 +94,21 @@ Micro$oft IIS Web Server, у web-сторінки на PHP для роботи �
 
 %package gtk
 Summary:	GTK+ frontend for asp2php
-Summary(cs.UTF-8):   Grafické rozhraní pro asp2php konvertor v GTK+ verzi
-Summary(da.UTF-8):   En GTK+ grafisk grænseflade for asp2php
-Summary(de.UTF-8):   Ein GUI GTK+ Frontend für  asp2php
-Summary(es.UTF-8):   Interfaz GTK+ para asp2php
-Summary(fr.UTF-8):   Frontal GTK+ pour le convertisseur asp2php
-Summary(id.UTF-8):   GTK+ front-end untuk asp2php
-Summary(it.UTF-8):   Front-end GTK+ per asp2php
-Summary(ja.UTF-8):   asp2php コンバータの GTK+ フロントエンド
-Summary(nb.UTF-8):   Et grafisk grensesnitt for asp2php
-Summary(pl.UTF-8):   Nakładka GTK+ na asp2php
-Summary(pt.UTF-8):   Uma interface de GTK+ para o asp2php
-Summary(ru.UTF-8):   Интерфейс для asp2php под GTK+
-Summary(sl.UTF-8):   Vmesnik GTK+ za asp2php
-Summary(sv.UTF-8):   En GTK+-framända till asp2php
-Summary(uk.UTF-8):   Оболонка на GTK+ для asp2php
+Summary(cs.UTF-8):	Grafické rozhraní pro asp2php konvertor v GTK+ verzi
+Summary(da.UTF-8):	En GTK+ grafisk grænseflade for asp2php
+Summary(de.UTF-8):	Ein GUI GTK+ Frontend für  asp2php
+Summary(es.UTF-8):	Interfaz GTK+ para asp2php
+Summary(fr.UTF-8):	Frontal GTK+ pour le convertisseur asp2php
+Summary(id.UTF-8):	GTK+ front-end untuk asp2php
+Summary(it.UTF-8):	Front-end GTK+ per asp2php
+Summary(ja.UTF-8):	asp2php コンバータの GTK+ フロントエンド
+Summary(nb.UTF-8):	Et grafisk grensesnitt for asp2php
+Summary(pl.UTF-8):	Nakładka GTK+ na asp2php
+Summary(pt.UTF-8):	Uma interface de GTK+ para o asp2php
+Summary(ru.UTF-8):	Интерфейс для asp2php под GTK+
+Summary(sl.UTF-8):	Vmesnik GTK+ za asp2php
+Summary(sv.UTF-8):	En GTK+-framända till asp2php
+Summary(uk.UTF-8):	Оболонка на GTK+ для asp2php
 Group:		Development/Tools
 Requires:	%{name} = %{version}-%{release}
 
